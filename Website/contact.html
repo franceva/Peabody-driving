@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peter Peabody Driving School - Contact Us</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Peabody Driving School</h1>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="drivinginfo.html">Driving Test Info</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+      </ul>
+      <div class="container">
+        <p>Basingstoke & Surrounding Areas - 07777 555 555</p>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="contact-info">
+    <div class="container">
+      <h2>Contact Us</h2>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <a href="contact.html" class="btn">Send Message</a>
+      </form>
+
+      <div class="map">
+        <h3>Location</h3>
+         <!-- Embedding a Google map for location -->
+         <label for="location">Find Us:</label>
+         <iframe
+           id="location"
+           src="https://www.google.com/maps?q=Basingstoke&output=embed"
+           style="width: 100%; height: 300px; border: none;"
+           loading="lazy"
+         ></iframe>
+      </div>
+
+      <div class="contact-details">
+        <h3>Contact Details</h3>
+        <ul>
+          <li>Phone: <a href="tel:07777555555">07777 555 555</a></li>
+          <li>Email: <a href="mailto:peter@peabodydriving.co.uk">peter@peabodydriving.co.uk</a></li>
+          <h3>Address</h3> 23 Oakwood Lane
+            Basingstoke
+            Hampshire
+            RG21 7AB</li>
+        </ul>
+      </div>
+
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/your-facebook-page"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="https://twitter.com/your-twitter-profile"><i class="fab fa-twitter"></i> Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="d-flex justify-content-end">
+        <p>&copy; 2024 Peter Peabody Driving School</p>
+        <a href="https://www.facebook.com/your-facebook-page" class="social-icon mx-2">
+            <img src="/images/facebook-icon.png" alt="Facebook" width="24" height="24">
+        </a>
+        <a href="https://x.com/" class="social-icon mx-2">
+            <img src="/images/x-logo.png" alt="Twitter" width="24" height="24">
+        </a>
+        <a href="https://www.instagram.com/" class="social-icon mx-2">
+            <img src="/images/instagram.png" alt="Instagram" width="24" height="24">
+        </a>
+    </div>
+  </footer>
+
+</body>
+</html>

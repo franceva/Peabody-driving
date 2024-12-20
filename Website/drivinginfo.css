@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1A281F;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: rgb(94, 88, 88);
+  }
+  
+  .contact-info {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-details, .map, .driving-test-info, .resources, .insurance-links {
+    margin-bottom: 30px;
+  }
+  
+  .contact-details ul, .driving-test-info ul, .resources ul, .insurance-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-details li, .driving-test-info li, .resources li, .insurance-links li {
+    margin-bottom: 10px;
+  }
+  
+  .map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
+  
+  footer {
+    background-color: #1A281F;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media h3 {
+    margin-bottom: 10px; /* Adjust spacing as desired */
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+  }
